@@ -2,8 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Subframe Next.js Starter",
-  description: "Your starter kit for integrating Subframe into Next.js",
+  title: "Cuvspot",
+  description: "Daily fashion games you can shop",
 };
 
 export default function RootLayout({
@@ -14,6 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
