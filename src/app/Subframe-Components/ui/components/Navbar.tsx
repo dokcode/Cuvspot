@@ -85,10 +85,9 @@ const ModernNavbarRoot = React.forwardRef<HTMLElement, ModernNavbarRootProps>(
           {/* Desktop Navigation */}
           <div className="hidden md:flex grow flex-wrap items-center gap-6">
             <NavItem>Games</NavItem>
-            <NavItem>Features</NavItem>
-            <NavItem>Pricing</NavItem>
+            <NavItem>Trending</NavItem>
+            <NavItem>News</NavItem>
             <NavItem>About</NavItem>
-            <NavItem>Contact</NavItem>
           </div>
 
           {/* Desktop Buttons */}
