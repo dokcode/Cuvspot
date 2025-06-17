@@ -86,7 +86,7 @@ const ModernNavbarRoot = React.forwardRef<HTMLElement, ModernNavbarRootProps>(
           <div className="hidden md:flex grow flex-wrap items-center gap-6">
             <NavItem>Games</NavItem>
             <NavItem>Trending</NavItem>
-            <NavItem>News</NavItem>
+            <NavItem>Blog</NavItem>
             <NavItem>About</NavItem>
           </div>
 

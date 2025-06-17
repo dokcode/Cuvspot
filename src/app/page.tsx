@@ -80,14 +80,17 @@ function ModernAboutPage() {
               </Button>
             </div>
             <div className="flex min-w-[320px] grow shrink-0 basis-0 flex-col items-start gap-2">
-              <div className="h-64 w-full rounded-lg overflow-hidden bg-neutral-100 flex items-center justify-center shadow-md">
-                <LottieAnimation 
-                  src="https://assets5.lottiefiles.com/dotlotties/dlf10_l5nfwcai.lottie" 
-                  loop 
-                  autoplay 
-                  style={{ width: '100%', height: '100%' }} 
-                />
-              </div>
+              <video 
+                className="w-full" 
+                style={{ maxWidth: '100%', height: 'auto' }}
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+              >
+                <source src="/jcUGK30j7H0r77evj3.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
               <span className="w-full font-['Inter'] text-[13px] font-[400] leading-[19px] text-subtext-color -tracking-[0.01em]">
                 Seamless transition from game completion to shopping experience
               </span>
